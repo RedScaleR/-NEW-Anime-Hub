@@ -1,0 +1,155 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("[NEW] Anime Hub", "Serpent")
+
+
+local Main = Window:NewTab("Blox Fruits")
+local MainSection = Main:NewSection("Scripts")
+
+
+MainSection:NewButton("Hxllow Hub", "Luanch's Hxlow Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/hxllow"))()
+end)
+
+MainSection:NewButton("Mukuro X Quartyz Hub", "Luanch's Mukuro Hub", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+MainSection:NewButton("Power Hub", "Luanch's Power Hub", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/natoppo044/modzcaster/main/POWERX.lua"),true))()
+end)
+
+MainSection:NewButton("String Hub", "Luanch's String Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
+MainSection:NewButton("Ripper Hub", "Luanch's Ripper Hub", function()
+    _G.Color = Color3.fromRGB(52, 190, 255)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
+end)
+
+MainSection:NewButton("Strike Hub", "Luanch's Strike Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
+end)
+
+MainSection:NewButton("RETRO Hub", "Luanch's RETRO Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/spectrumok/RetroHub/main/Main.lua"))()
+end)
+
+local Main7 = Window:NewTab("King Legacy")
+local Main7Section = Main7:NewSection("Scripts")
+
+Main7Section:NewButton("Strike Hub", "Luanch's Strike Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
+end)
+
+Main7Section:NewButton("Ripper Hub", "Luanch's Ripper Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))()
+end)
+
+Main7Section:NewButton("HOHO Hub", "Luanch's HOHO Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Main7Section:NewButton("Mukuro X Quartyz Hub", "Luanch's Mukuro X Quartyz", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+Main7Section:NewButton("Thunder Z Hub", "Luanch's Thunder Z Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+Main7Section:NewButton("Project Meow", "Luanch's Project Meow", function()
+    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+end)
+
+local Main6 = Window:NewTab("Anime Dimensions")
+local Main6Section = Main6:NewSection("Scripts")
+
+Main6Section:NewButton("Sun Hub", "Luanch's Sun Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Besty191/MAZI/main/Anime%20Dimensions%20Simulator%20%7C%20Sun%20Hub"))()
+end)
+
+local Main2 = Window:NewTab("Anime Fighters")
+local Main2Section = Main2:NewSection("Scripts")
+
+
+Main2Section:NewButton("TinyTask Hub", "Luanch's TinyTask Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/TinyTask%20Hub/loader.lua"))()
+end)
+
+Main2Section:NewButton("Zer0 Hub", "Luanch's Zer0 Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+end)
+
+Main2Section:NewButton("SSJ3 Hub", "Luanch's SSJ3 Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gohan9k/ANFSnew/main/GOHANSSJ3"))()
+end)
+
+local Main4 = Window:NewTab("Anime Adventures")
+local Main4Section = Main4:NewSection("Scripts")
+
+
+Main4Section:NewButton("Keybrew Hub", "Luanch's Keybrew Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/borntodiekuv/KeybrewHub/main/AA"))()
+end)
+
+Main4Section:NewButton("ArponAG", "Luanch's ArponAG", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+end)
+
+local Main5 = Window:NewTab("Anime Fighting")
+local Main5Section = Main5:NewSection("Scripts")
+
+
+Main5Section:NewButton("HOHO Hub", "Luanch's HOHO Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Main5Section:NewButton("Zer0 Hub", "Luanch's Zer0 Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+end)
+
+Main5Section:NewButton("KJ Hub", "Luanch's KJ Hub", function()
+    loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))()
+end)
+
+Main5Section:NewButton("SSJ3 Hub", "Luanch's SSJ3 Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gohan9k/ANFSnew/main/GOHANSSJ3"))()
+end)
+
+Main5Section:NewButton("Hyper", "Luanch's Hyper", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
+end)
+
+Main5Section:NewButton("Lazy Hub", "Luanch's Lazy Hub", function()
+    repeat wait() until game:IsLoaded()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+end)
+
+local Main3 = Window:NewTab("Admin Commands")
+local Main3Section = Main3:NewSection("Scripts")
+
+
+Main3Section:NewButton("infinite yield", "Luanch's infinite yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Main3Section:NewButton("cmd-X", "Luanch's cmd-x", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Main3Section:NewButton("Fates Admin", "Luanch's Fates Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+Main3Section:NewButton("Reviz Admin", "Luanch's Reviz Admin", function()
+    loadstring(game:HttpGet('https://pastebin.com/ibFPdiF7'))()
+end)
+
+local GUI = Window:NewTab("GUI")
+local GUISection = GUI:NewSection("GUI editor")
+
+
+GUISection:NewKeybind("Key Bind", "Change's Key Bind Toggle", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
