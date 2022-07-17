@@ -173,6 +173,6 @@ local GUI = Window:NewTab("GUI")
 local GUISection = GUI:NewSection("GUI editor")
 
 
-GUISection:NewKeybind("Key Bind", "Change's Key Bind Toggle", Enum.KeyCode.F, function()
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
