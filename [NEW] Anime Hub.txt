@@ -78,6 +78,13 @@ Main8Section:NewButton("Marker", "Luanch's Marker", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Testing-A-0ne-Piece-Game-LeadMarkerAOPG-1595"))()
 end)
 
+local Main9 = Window:NewTab("Grand Piece Online")
+local Main9Section = Main9:NewSection("Scripts")
+
+Main9Section:NewButton("Dolce Hub", "Luanch's Dolce Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/abcxyzawe/Grand-piece-Dolce-Hub/main/Dolce%20Hub"))()
+end)
+
 local Main6 = Window:NewTab("Anime Dimensions")
 local Main6Section = Main6:NewSection("Scripts")
 
