@@ -62,6 +62,22 @@ Main7Section:NewButton("Project Meow", "Luanch's Project Meow", function()
     loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
 end)
 
+local Main8 = Window:NewTab("A 0ne Piece")
+local Main8Section = Main8:NewSection("Scripts")
+
+Main8Section:NewButton("UZU Hub", "Luanch's UZU Hub", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+end)
+
+Main8Section:NewButton("Lazy Hub", "Luanch's Lazy Hub", function()
+    repeat wait() until game:IsLoaded()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+end)
+
+Main8Section:NewButton("Marker", "Luanch's Marker", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Testing-A-0ne-Piece-Game-LeadMarkerAOPG-1595"))()
+end)
+
 local Main6 = Window:NewTab("Anime Dimensions")
 local Main6Section = Main6:NewSection("Scripts")
 
