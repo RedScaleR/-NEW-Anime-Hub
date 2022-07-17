@@ -28,7 +28,7 @@ MainSection:NewButton("Ripper Hub", "Luanch's Ripper Hub", function()
 end)
 
 MainSection:NewButton("Strike Hub", "Luanch's Strike Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
 end)
 
 MainSection:NewButton("RETRO Hub", "Luanch's RETRO Hub", function()
