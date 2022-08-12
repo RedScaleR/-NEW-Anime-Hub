@@ -1,11 +1,23 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("[NEW] Anime Hub", "Serpent")
+--[[
+    Change "Serpent" to change themes::
+    LightTheme
+    DarkTheme
+    GrapeTheme
+    BloodTheme
+    Ocean
+    Midnight
+    Sentinel
+    Synapse
+    Serpent
+--]]
 
 
 local Main = Window:NewTab("Blox Fruits")
 local MainSection = Main:NewSection("Scripts")
 
-
+-- Scripts --
 MainSection:NewButton("Hxllow Hub", "Luanch's Hxlow Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/hxllow"))()
 end)
@@ -33,6 +45,14 @@ end)
 
 MainSection:NewButton("RETRO Hub", "Luanch's RETRO Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/spectrumok/RetroHub/main/Main.lua"))()
+end)
+
+MainSection:NewButton("Zen Hub", "Luanch's Zen Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bloxfrui%20v0.3", true))()
+end)
+
+MainSection:NewButton("Dolce Hub", "Luanch's Dolce Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bearhub1/DolceHub/main/King-Legacy"))()
 end)
 
 local Main7 = Window:NewTab("King Legacy")
@@ -76,20 +96,6 @@ end)
 
 Main8Section:NewButton("Marker", "Luanch's Marker", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Testing-A-0ne-Piece-Game-LeadMarkerAOPG-1595"))()
-end)
-
-local Main9 = Window:NewTab("Grand Piece Online")
-local Main9Section = Main9:NewSection("Scripts")
-
-Main9Section:NewButton("Dolce Hub", "Luanch's Dolce Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/abcxyzawe/Grand-piece-Dolce-Hub/main/Dolce%20Hub"))()
-end)
-
-local Main6 = Window:NewTab("Anime Dimensions")
-local Main6Section = Main6:NewSection("Scripts")
-
-Main6Section:NewButton("Sun Hub", "Luanch's Sun Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Besty191/MAZI/main/Anime%20Dimensions%20Simulator%20%7C%20Sun%20Hub"))()
 end)
 
 local Main2 = Window:NewTab("Anime Fighters")
@@ -148,7 +154,7 @@ Main5Section:NewButton("Lazy Hub", "Luanch's Lazy Hub", function()
     repeat wait() until game:IsLoaded()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
 end)
-
+-- admin commands --
 local Main3 = Window:NewTab("Admin Commands")
 local Main3Section = Main3:NewSection("Scripts")
 
@@ -169,10 +175,43 @@ Main3Section:NewButton("Reviz Admin", "Luanch's Reviz Admin", function()
     loadstring(game:HttpGet('https://pastebin.com/ibFPdiF7'))()
 end)
 
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewToggle("Super Human", "go faster and jump higher", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+
+PlayerSection:NewToggle("The Flash", "Become The Flash", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 700
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 75
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+
+PlayerSection:NewSlider("Walk Speed", "Increase your Walk Speed default is 16", 500, 16, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("Jump Power", "Increase your Jump Power default is 50", 500, 50, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+-- Settings GUI --
+
 local GUI = Window:NewTab("GUI")
 local GUISection = GUI:NewSection("GUI editor")
 
 
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+GUISection:NewKeybind("Key Bind", "Key Bind For Toggle UI", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
